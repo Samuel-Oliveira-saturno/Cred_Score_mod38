@@ -1,45 +1,87 @@
-# 📊 Projeto de Análise de Crédito com PyCaret e Streamlit
-
-Este projeto aplica técnicas de **Machine Learning** com a biblioteca **PyCaret** e interface interativa via **Streamlit** para prever a inadimplência de clientes com base em dados socioeconômicos.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+# 🔥 **PROJECT — CREDIT RISK MODEL**
 
-- [Python 3.10+](https://www.python.org/)
-- [Streamlit](https://streamlit.io/)
-- [PyCaret](https://pycaret.gitbook.io/docs/)
-- [LightGBM](https://lightgbm.readthedocs.io/)
-- [Pandas, Numpy, Matplotlib, Seaborn](https://pandas.pydata.org/)
+```markdown
+# 📊 Credit Risk Prediction – End-to-End ML Application
 
----
-
-## 📂 Organização do Projeto
-
-- `credit_score.py`: script principal com toda a lógica e interface em Streamlit
-- `logo.png`: imagem utilizada no cabeçalho da aplicação
-- `models/`: pasta com os modelos salvos
-- `data/`: base de dados usada no projeto (amostrada de 50.000 registros)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)]()
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red)]()
+[![LightGBM](https://img.shields.io/badge/Model-LightGBM-green)]()
 
 ---
 
-## 🧠 Funcionalidades
+## 🚀 Overview
 
-- Análise exploratória dos dados
-- Correlação entre variáveis
-- Tratamento de variáveis com `setup()` do PyCaret
-- Comparação automática de modelos
-- Ajuste de hiperparâmetros (`tune_model`)
-- Gráficos: curva AUC, matriz de confusão e importância de variáveis
-- Salvamento e carregamento do melhor modelo
-- Interface interativa com Streamlit
+This project presents an **end-to-end machine learning pipeline** for predicting **customer default risk** using socioeconomic data.
+
+It combines **automated model selection (PyCaret)** with an **interactive web application**, demonstrating how ML models can support real-world financial decision-making.
 
 ---
 
-## 🏃‍♂️ Como Executar
+## 🎯 Business Problem
 
-### 1. Clone o repositório
+Financial institutions need to answer:
+
+👉 **“Should we approve this customer’s credit?”**
+
+This project builds a system to:
+- Predict default probability  
+- Support risk-based decision-making  
+- Improve credit approval strategies  
+
+---
+
+## 💡 Solution
+
+- Automated model selection and optimization using PyCaret  
+- Built a **deployable Streamlit application**  
+- Delivered interpretable outputs for decision support  
+
+---
+
+## 🧠 Machine Learning Pipeline
+
+### Data
+- ~50,000 customer records  
+- Socioeconomic and behavioral variables  
+
+### Process
+- Data preprocessing (PyCaret `setup()`)
+- Feature engineering  
+- Model comparison (`compare_models`)
+- Hyperparameter tuning (`tune_model`)  
+
+### Model
+- LightGBM (best-performing model)  
+- Evaluated using AUC, confusion matrix, and feature importance  
+
+---
+
+## 📊 Features
+
+- 📈 Exploratory Data Analysis (EDA)
+- 🔍 Feature correlation analysis  
+- 🤖 Automated model selection  
+- ⚙️ Hyperparameter tuning  
+- 📊 Model evaluation (AUC, confusion matrix)
+- 📉 Feature importance visualization  
+- 💾 Model saving/loading  
+- 🖥️ Interactive UI with Streamlit  
+
+---
+
+## 🏗️ Architecture
+
+- Data → Preprocessing → Model training → Evaluation → Deployment (Streamlit)
+
+---
+
+## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/Samuel-Oliveira-saturno/Cred_Score_mod38.git
+cd Cred_Score_mod38
+pip install -r requirements.txt
+streamlit run credit_score.py
