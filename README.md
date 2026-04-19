@@ -6,9 +6,9 @@
 ```markdown
 # 📊 Credit Risk Prediction – End-to-End ML Application
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-red)](https://streamlit.io/)
-[![LightGBM](https://img.shields.io/badge/Model-LightGBM-green)](https://lightgbm.readthedocs.io/)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)(https://www.python.org/)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)(https://streamlit.io/)
+![LightGBM](https://img.shields.io/badge/Model-LightGBM-green)(https://lightgbm.readthedocs.io/)
 
 ---
 
