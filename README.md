@@ -10,6 +10,11 @@
 
 ## 📊 Credit Risk Prediction – End-to-End ML Application
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-green?style=for-the-badge)](https://energy-fraud-detector.onrender.com)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red)](https://streamlit.io/)
+[![Machine Learning](https://img.shields.io/badge/ML-RandomForest-orange)]()
+
 ---
 
 ## 🚀 Overview
